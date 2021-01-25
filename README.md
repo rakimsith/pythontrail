@@ -1,6 +1,37 @@
 # pythontrail
 TicTacToe Game 
 
+Objectives
+- Learn why we use the branching workflow.
+- Develop conventions of branching and merging.
+- Practice doing git work as a team.
+
+## Breakdown
+- Q&A: Why Do We Use Branching? (10 min)
+- Branching in the Industry (5 min)
+- Git Commands to Watch Out For (5 min)
+- Branching Workflow (5 min)
+- Merging Workflow (10 min)
+- Lab (10 min)
+- Review + Recap (5 min)
+
+## Branching in the Industry
+![Example Branches](./example-branches.png)
+There are two main observations to make here:
+1. the feature branches are prefixed by feature/, and the fix branches are prefixed by fix/.
+1. there are a lot of branches, as the ideology for branching in git is *branch early and branch often*.
+
+## Git Commands to Watch Out For
+
+As of now, our git workflow has looked something like this:
+
+```
+git status
+git add .
+git commit -m 'a helpful message'
+git push origin master
+```
+
 However, moving forward, a few things will change about this process, namely the branches we push to, and the commands we enter. As far as the commands go, we're going to add two more into the mix, `git log` and `git diff`. You may have used or seen these commands before, but at a glance, `git log` gives you a summary of the past commits relative to the branch you're currently on, and `git diff` shows you what changes you have made since the previous commit. Our new process should look something like this:
 
 ```
@@ -119,3 +150,4 @@ Steps:
 1. After each merge, make sure to add and commit your work to merge the changes in.
 1. Once the Maintainer has finished merging all the branches, push up the updated master branch to your remote.
 1. Celebrate with a bottle of champagne to share amongst your group, for you have triumphed over Git! Let's take a look at the changes we've made by running a fancy version of git log: `git log --all --decorate --oneline --graph`. We can call this git log adog for mnemonics' sake. This will give us a full tree view of our commits that we've done, relative to our current branch.
+
