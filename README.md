@@ -1,7 +1,7 @@
 # pythontrail
 TicTacToe Game 
 
-Objectives
+# Objectives
 - Learn why we use the branching workflow.
 - Develop conventions of branching and merging.
 - Practice doing git work as a team.
@@ -150,4 +150,5 @@ Steps:
 1. After each merge, make sure to add and commit your work to merge the changes in.
 1. Once the Maintainer has finished merging all the branches, push up the updated master branch to your remote.
 1. Celebrate with a bottle of champagne to share amongst your group, for you have triumphed over Git! Let's take a look at the changes we've made by running a fancy version of git log: `git log --all --decorate --oneline --graph`. We can call this git log adog for mnemonics' sake. This will give us a full tree view of our commits that we've done, relative to our current branch.
+
 
